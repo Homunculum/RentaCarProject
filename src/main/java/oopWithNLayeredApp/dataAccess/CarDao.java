@@ -1,4 +1,7 @@
-package oopWithNLayeredApp.entities;
+package oopWithNLayeredApp.dataAccess;
+
+import oopWithNLayeredApp.entities.Car;
+
 import java.util.List;
 
 public interface CarDao {
