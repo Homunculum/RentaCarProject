@@ -10,7 +10,7 @@ public class Renter {
     private LocalDateTime kiralamaTarihi;
     private Car kiralananAraba;
 
-    public Renter(String tc, String ad, String soyad, String telefonNo,LocalDateTime kiralamaTarihi, Car kiralananAraba) {
+    public Renter(String tc, String ad, String soyad, String telefonNo, LocalDateTime kiralamaTarihi, Car kiralananAraba) {
         this.tc = tc;
         this.ad = ad;
         this.soyad = soyad;

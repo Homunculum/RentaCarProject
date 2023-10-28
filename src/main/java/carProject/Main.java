@@ -34,20 +34,17 @@ public class Main {
 
         // Araba kiralama işlemi
 
-        LocalDateTime  kiralamaTarihi1 = LocalDateTime.of(2023, 10, 26, 22, 43); // Kiralama tarihi
+        LocalDateTime kiralamaTarihi1 = LocalDateTime.of(2023, 10, 26, 22, 43); // Kiralama tarihi
         Renter renter1 = renterService.rentCar("12345678901", "kadir", "elsıkma", "05448989796", kiralamaTarihi1, 0);
 
-        LocalDateTime  kiralamaTarihi2 = LocalDateTime.of(2023, 10, 25, 10, 20); // Kiralama tarihi
+        LocalDateTime kiralamaTarihi2 = LocalDateTime.of(2023, 10, 25, 10, 20); // Kiralama tarihi
         Renter renter2 = renterService.rentCar("10987654321", "halit", "kalaycı", "05444444444", kiralamaTarihi2, 2);
-
-
 
 
         // Tüm arabaları listele
         List<Car> allCars = carService.getAllCars();
         System.out.println("Tüm Arabalar:");
         for (Car car : allCars) {
-
 
             System.out.println("ID: " + car.getId() +
                     ", Marka: " + car.getBrand() +
@@ -58,22 +55,18 @@ public class Main {
         }
 
         // Kiralanmış arabaları listele
-        List<Renter>rentedCars = renterService.getRentedCars();
-
-
+        List<Renter> rentedCars = renterService.getRentedCars();
         System.out.println("\nKiralanan Arabalar:");
         for (Renter rent : rentedCars) {
+
             LocalDateTime kiralamaTarihiArac = rent.getKiralamaTarihi();
             Duration kiralamaSuresi = Duration.between(kiralamaTarihiArac, LocalDateTime.now());
-
-
-
             long gecenZamanGun = kiralamaSuresi.toDays();
-            long gecenZamanS =kiralamaSuresi.toHours()%24;
-            long gecenZamanD =kiralamaSuresi.toMinutes()%60;
-            long gecenZamanD2 =kiralamaSuresi.toMinutes();
+            long gecenZamanS = kiralamaSuresi.toHours() % 24;
+            long gecenZamanD = kiralamaSuresi.toMinutes() % 60;
+            long gecenZamanD2 = kiralamaSuresi.toMinutes();
 
-            double kiraUcreti =gecenZamanD2 * rent.getKiralananAraba().getDailyPrice()/1440;
+            double kiraUcreti = gecenZamanD2 * rent.getKiralananAraba().getDailyPrice() / 1440;
             System.out.println("TC: " + rent.getTc() +
                     ", Ad: " + rent.getAd() +
                     ", Soyad: " + rent.getSoyad() +
@@ -81,12 +74,11 @@ public class Main {
                     ", Araba Marka: " + rent.getKiralananAraba().getBrand() +
                     ", Araba Model: " + rent.getKiralananAraba().getModel() +
                     ", Kiralama Günü: " + kiralamaTarihi1 +
-                    ", Kiralama Süresi: " + gecenZamanGun +" gün " + gecenZamanS+ " saat " + gecenZamanD + " dakika" +
+                    ", Kiralama Süresi: " + gecenZamanGun + " gün " + gecenZamanS + " saat " + gecenZamanD + " dakika" +
                     ", Kiralama Ücreti: " + kiraUcreti);
         }
 
         // Kiralanmamış arabaları listele
-
         List<Car> availableCars = carService.getAllCars();
         System.out.println("\nKiralanmamış Arabalar:");
         for (Car car : availableCars) {
