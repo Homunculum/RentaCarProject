@@ -1,6 +1,6 @@
-package carProject.dataAccess;
+package rentaCarProject.dataAccess;
 
-import carProject.entities.Car;
+import rentaCarProject.entities.Car;
 
 import java.util.List;
 

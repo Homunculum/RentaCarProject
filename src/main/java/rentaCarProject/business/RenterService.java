@@ -1,13 +1,13 @@
-package carProject.dataAccess;
+package rentaCarProject.business;
 
-import carProject.entities.Renter;
+import rentaCarProject.entities.Renter;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
-public interface RenterDao {
-
+public interface RenterService {
     Renter rentCar(String tc, String ad, String soyad, String telefonNo, LocalDateTime kiralamaTarihi, int carId);
+
 
     List<Renter> getRentedCars();
 

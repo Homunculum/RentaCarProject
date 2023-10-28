@@ -1,4 +1,4 @@
-package carProject.entities;
+package rentaCarProject.entities;
 
 import java.time.LocalDateTime;
 

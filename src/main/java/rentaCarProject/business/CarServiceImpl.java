@@ -1,7 +1,7 @@
-package carProject.business;
+package rentaCarProject.business;
 
-import carProject.dataAccess.CarDao;
-import carProject.entities.Car;
+import rentaCarProject.dataAccess.CarDao;
+import rentaCarProject.entities.Car;
 
 import java.util.List;
 

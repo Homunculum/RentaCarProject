@@ -1,15 +1,15 @@
-package carProject;
+package rentaCarProject;
 
-import carProject.entities.Car;
-import carProject.entities.Renter;
-import carProject.dataAccess.CarDao;
-import carProject.dataAccess.CarDaoImpl;
-import carProject.dataAccess.RenterDao;
-import carProject.dataAccess.RenterDaoImpl;
-import carProject.business.CarService;
-import carProject.business.CarServiceImpl;
-import carProject.business.RenterService;
-import carProject.business.RenterServiceImpl;
+import rentaCarProject.entities.Car;
+import rentaCarProject.entities.Renter;
+import rentaCarProject.dataAccess.CarDao;
+import rentaCarProject.dataAccess.CarDaoImpl;
+import rentaCarProject.dataAccess.RenterDao;
+import rentaCarProject.dataAccess.RenterDaoImpl;
+import rentaCarProject.business.CarService;
+import rentaCarProject.business.CarServiceImpl;
+import rentaCarProject.business.RenterService;
+import rentaCarProject.business.RenterServiceImpl;
 
 import java.time.Duration;
 import java.time.LocalDateTime;

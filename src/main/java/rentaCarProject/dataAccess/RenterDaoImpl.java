@@ -1,7 +1,7 @@
-package carProject.dataAccess;
+package rentaCarProject.dataAccess;
 
-import carProject.entities.Car;
-import carProject.entities.Renter;
+import rentaCarProject.entities.Car;
+import rentaCarProject.entities.Renter;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

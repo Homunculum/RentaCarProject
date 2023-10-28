@@ -1,6 +1,6 @@
-package carProject.business;
+package rentaCarProject.business;
 
-import carProject.entities.Car;
+import rentaCarProject.entities.Car;
 
 import java.util.List;
 
