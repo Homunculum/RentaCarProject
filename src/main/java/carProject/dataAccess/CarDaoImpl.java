@@ -7,7 +7,6 @@ import java.util.List;
 
 public class CarDaoImpl implements CarDao {
     private List<Car> cars = new ArrayList<>();
-    private int nextId = 1;
 
     @Override
     public Car getCarById(int id) {
