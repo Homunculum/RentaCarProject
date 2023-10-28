@@ -15,11 +15,12 @@ public class CarDaoImpl implements CarDao {
                 return car;
             }
         }
-        return null; // Araba bulunamazsa null döndürüyoruz.
+        return null;
     }
 
     @Override
     public List<Car> getAllCars() {
+
         return cars;
     }
 
