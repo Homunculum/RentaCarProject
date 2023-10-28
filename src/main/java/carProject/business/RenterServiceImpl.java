@@ -1,8 +1,8 @@
-package oopWithNLayeredApp.business;
+package carProject.business;
 
-import oopWithNLayeredApp.dataAccess.CarDao;
-import oopWithNLayeredApp.dataAccess.RenterDao;
-import oopWithNLayeredApp.entities.Renter;
+import carProject.dataAccess.CarDao;
+import carProject.dataAccess.RenterDao;
+import carProject.entities.Renter;
 
 import java.util.List;
 import java.time.LocalDateTime;

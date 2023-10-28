@@ -1,4 +1,4 @@
-package oopWithNLayeredApp.entities;
+package carProject.entities;
 
 
 public class Car {

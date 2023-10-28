@@ -1,6 +1,6 @@
-package oopWithNLayeredApp.dataAccess;
+package carProject.dataAccess;
 
-import oopWithNLayeredApp.entities.Car;
+import carProject.entities.Car;
 
 import java.util.List;
 

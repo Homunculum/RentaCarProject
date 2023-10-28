@@ -1,6 +1,6 @@
-package oopWithNLayeredApp.business;
+package carProject.business;
 
-import oopWithNLayeredApp.entities.Car;
+import carProject.entities.Car;
 
 import java.util.List;
 

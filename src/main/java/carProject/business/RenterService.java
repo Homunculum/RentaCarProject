@@ -1,8 +1,7 @@
-package oopWithNLayeredApp.business;
-import oopWithNLayeredApp.entities.Renter;
+package carProject.business;
+import carProject.entities.Renter;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.List;
 
 public interface RenterService {

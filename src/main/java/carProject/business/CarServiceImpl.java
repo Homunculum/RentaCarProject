@@ -1,7 +1,7 @@
-package oopWithNLayeredApp.business;
+package carProject.business;
 
-import oopWithNLayeredApp.dataAccess.CarDao;
-import oopWithNLayeredApp.entities.Car;
+import carProject.dataAccess.CarDao;
+import carProject.entities.Car;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
-package oopWithNLayeredApp.dataAccess;
+package carProject.dataAccess;
 
-import oopWithNLayeredApp.entities.Car;
-import oopWithNLayeredApp.entities.Renter;
+import carProject.entities.Car;
+import carProject.entities.Renter;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

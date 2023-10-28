@@ -1,4 +1,4 @@
-package oopWithNLayeredApp.entities;
+package carProject.entities;
 
 import java.time.LocalDateTime;
 

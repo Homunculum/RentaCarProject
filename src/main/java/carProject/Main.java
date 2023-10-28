@@ -1,15 +1,15 @@
-package oopWithNLayeredApp;
+package carProject;
 
-import oopWithNLayeredApp.entities.Car;
-import oopWithNLayeredApp.entities.Renter;
-import oopWithNLayeredApp.dataAccess.CarDao;
-import oopWithNLayeredApp.dataAccess.CarDaoImpl;
-import oopWithNLayeredApp.dataAccess.RenterDao;
-import oopWithNLayeredApp.dataAccess.RenterDaoImpl;
-import oopWithNLayeredApp.business.CarService;
-import oopWithNLayeredApp.business.CarServiceImpl;
-import oopWithNLayeredApp.business.RenterService;
-import oopWithNLayeredApp.business.RenterServiceImpl;
+import carProject.entities.Car;
+import carProject.entities.Renter;
+import carProject.dataAccess.CarDao;
+import carProject.dataAccess.CarDaoImpl;
+import carProject.dataAccess.RenterDao;
+import carProject.dataAccess.RenterDaoImpl;
+import carProject.business.CarService;
+import carProject.business.CarServiceImpl;
+import carProject.business.RenterService;
+import carProject.business.RenterServiceImpl;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
